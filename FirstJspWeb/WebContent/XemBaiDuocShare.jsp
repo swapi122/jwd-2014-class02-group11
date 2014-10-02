@@ -47,15 +47,15 @@
 			<a href="index.jsp"
 			class="list-group-item "><span class="pull-right"><i
 			class="icon-chevron-right"></i></span>Trang Chủ</a> 
-			<!-- <a href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
+			<a href="XemDSDTSV.jsp"
 			class="list-group-item "><span class="pull-right"><i
 			class="icon-chevron-right"></i></span>Xem Danh Sách Đề Tài</a> 
-			<a href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
+			<a href=""
 			class="list-group-item "><span class="pull-right"><i
 			class="icon-chevron-right"></i></span>Xem Điểm</a>
-			<a href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
+			<a href="XemBaiDuocShare.jsp"
 			class="list-group-item "><span class="pull-right"><i
-			class="icon-chevron-right"></i></span>Xem Bài Được Share</a> -->
+			class="icon-chevron-right"></i></span>Xem Bài Được Share</a>
 		<hr />
 		<!-- /.modal -->
 
