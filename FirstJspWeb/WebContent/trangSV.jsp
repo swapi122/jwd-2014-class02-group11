@@ -253,7 +253,6 @@
 				TP. Hồ Chí Minh</h5>
 		</div>
 	</div>
-	</div>
 	<!-- End #container -->
 
 </body>
