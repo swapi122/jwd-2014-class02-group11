@@ -44,18 +44,19 @@
 			giờ 53 phút, ngày 02 tháng 10, 2014</li>
 		<li class="list-group-item"
 			style="text-align: right; font-weight: bold; font-family: verdana; background-color: #efefef;">Danh
-			Mục</li> <a href="index.jsp"
+			Mục</li> 
+			<a href="index.jsp"
 			class="list-group-item "><span class="pull-right"><i
-				class="icon-chevron-right"></i></span>Trang Chủ</a> <a
-			href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
+			class="icon-chevron-right"></i></span>Trang Chủ</a> 
+			<!-- <a href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
 			class="list-group-item "><span class="pull-right"><i
-				class="icon-chevron-right"></i></span>Xem Danh Sách Đề Tài</a> <a
-			href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
+			class="icon-chevron-right"></i></span>Xem Danh Sách Đề Tài</a> 
+			<a href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
 			class="list-group-item "><span class="pull-right"><i
-				class="icon-chevron-right"></i></span>Xem Điểm</a><a
-			href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
+			class="icon-chevron-right"></i></span>Xem Điểm</a>
+			<a href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
 			class="list-group-item "><span class="pull-right"><i
-				class="icon-chevron-right"></i></span>Xem Bài Được Share</a>
+			class="icon-chevron-right"></i></span>Xem Bài Được Share</a> -->
 		<hr />
 		<!-- /.modal -->
 
@@ -75,8 +76,7 @@
 				<div class="container">
 					<div id="banner">
 						<div id="login-area">
-							<a data-toggle="modal" href="#thong_tin"><i>GV </i>: Nguyễn
-								Văn A</a>
+							<a data-toggle="modal" href="#thong_tin"><i>SV </i>: Quách Tĩnh </a>
 						</div>
 					</div>
 				</div>
@@ -100,17 +100,17 @@
 									</div>
 									<a href="index.jsp"
 										class="list-group-item "><span class="pull-right"><i
-											class="icon-chevron-right"></i></span>Trang Chủ</a> <a
-										href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
-										class="list-group-item "><span class="pull-right"><i
-											class="icon-chevron-right"></i></span>Xem Danh Sách Đề Tài</a> <a
-										href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
-										class="list-group-item "><span class="pull-right"><i
-											class="icon-chevron-right"></i></span>Xem Điểm</a><a
-										href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
-										class="list-group-item "><span class="pull-right"><i
-											class="icon-chevron-right"></i></span>Xem Bài Được Share</a> 
-								</div>
+											class="icon-chevron-right"></i></span>Trang Chủ</a> 
+									<a 
+										class="list-group-item "><span class="pull-right">
+										<i class="icon-chevron-right"></i></span>Xem Danh Sách Đề Tài</a> 
+										<a
+										class="list-group-item "><span class="pull-right">
+										<i class="icon-chevron-right"></i></span>Xem Điểm</a>
+										<a 
+										class="list-group-item "><span class="pull-right">
+										<i class="icon-chevron-right"></i></span>Xem Bài Được Share</a>
+										</div>
 								<!-- /panel-default -->
 
 								<div class="panel panel-default">
@@ -187,26 +187,12 @@
 <hr />
 <ul>
     -->
-
-							<hr />
-							<h3 class="text-danger">Quản trị tài khoản :</h3>
-							<hr />
-							<style>
+<style>
 #img-cover img {
 	width: 80px !important;
 	height: 80px !important;
 }
-</style>
-							<ul>
-								<li><a
-									href="http://dkdt.fit.hcmute.edu.vn/user/doi-thong-tin-ca-nhan.html">Đổi
-										thông tin cá nhân</a></li>
-								<hr />
-								<li><a
-									href="http://dkdt.fit.hcmute.edu.vn/user/doi-mat-khau.html">Đổi
-										mật khẩu</a></li>
-								<hr />
-							</ul>
+</style>							
 							<script>
 								$(document)
 										.ready(
