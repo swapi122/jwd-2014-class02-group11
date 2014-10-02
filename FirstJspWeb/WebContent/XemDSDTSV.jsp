@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=utf-8"
-	pageEncoding="utf-8"%>
+<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -101,9 +100,9 @@
 									<a href="index.jsp"
 										class="list-group-item "><span class="pull-right"><i
 											class="icon-chevron-right"></i></span>Trang Chủ</a> 
-									<a 
+									<a
 										class="list-group-item "><span class="pull-right">
-										<i class="icon-chevron-right"></i></span>Xem Danh Sách Đề Tài</a> 
+										<i class="icon-chevron-right" ></i></span><a1>Xem Danh Sách Đề Tài</a1> </a> 
 										<a
 										class="list-group-item "><span class="pull-right">
 										<i class="icon-chevron-right"></i></span>Xem Điểm</a>
@@ -169,7 +168,7 @@
 						</div>
 						<div class="panel-body">
 							<div class="alert alert-info">
-								<div id="avatar" style="float: left; margin-right: 20px;">
+							  <div id="avatar" style="float: left; margin-right: 20px;">
 									<object style="width: 92px; height: 92px;"
 										class="img-thumbnail img-responsive"
 										data="http://online.hcmute.edu.vn/HinhSV/11110087.jpg">
@@ -177,8 +176,9 @@
 											src="http://dkdt.fit.hcmute.edu.vn/public/images/upload-image/noavatar92.png" />
 									</object>
 								</div>
-								Chào mừng <span> Sinh Viên </span> <strong class="text-danger">Quách Tĩnh</strong> <br /> đến với hệ thống ConceptMap Khoa Công Nghệ Thông
-								Tin <br />
+Chào mừng <span> Sinh Viên </span> <strong class="text-danger">Quách Tĩnh</strong> <br>
+đến với hệ thống ConceptMap Khoa Công Nghệ Thông
+								Tin <br>
 								<div class="clearfix"></div>
 							</div>
 
@@ -192,7 +192,35 @@
 	width: 80px !important;
 	height: 80px !important;
 }
-</style>							
+</style>
+<div>
+<table width="800" border="1">
+  <tbody>
+    <tr bgcolor="#C9C7C7">
+      <td>MãĐT </td>
+      <td>TênĐT</td>
+      <td>Mô Tả</td>
+      <td>Thời Hạn</td>
+      <td>Làm Bài</td>
+    </tr>
+    <tr>
+      <td>DT01</td>
+      <td>Mind Map</td>
+      <td>Sơ Đồ Tư Duy</td>
+      <td>15/08/2015</td>
+      <td><a href="">Click</a></td>
+    </tr>
+    <tr>
+      <td>DT02</td>
+      <td>Giám Sát Lớp</td>
+      <td>......</td>
+      <td>......</td>
+      <td><a href="">Đã Làm</a></td>
+    </tr>
+  </tbody>
+</table>
+
+</div>							
 							<script>
 								$(document)
 										.ready(
