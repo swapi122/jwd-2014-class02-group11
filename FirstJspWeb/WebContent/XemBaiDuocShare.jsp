@@ -100,13 +100,13 @@
 									<a href="index.jsp"
 										class="list-group-item "><span class="pull-right"><i
 											class="icon-chevron-right"></i></span>Trang Chủ</a> 
-									<a
+									<a href="XemDSDTSV.jsp"
 										class="list-group-item "><span class="pull-right">
 										<i class="icon-chevron-right" ></i></span>Xem Danh Sách Đề Tài </a> 
 										<a
 										class="list-group-item "><span class="pull-right">
 										<i class="icon-chevron-right"></i></span>Xem Điểm</a>
-										<a 
+										<a
 										class="list-group-item "><span class="pull-right">
 										<i class="icon-chevron-right"></i></span><a1>Xem Bài Được Share</a1></a>
 										</div>
