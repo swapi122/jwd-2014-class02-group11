@@ -137,23 +137,17 @@
 										<h4 id="mobile_home">Danh Mục</h4>
 									</div>
 									<a href="index.jsp"
-										class="list-group-item "><span class="pull-right"><i
-											class="icon-chevron-right"></i></span>Trang Chủ</a> <a
+										class="list-group-item "><span class="pull-right"></span>Trang Chủ</a> <a
 										href="themDT.jsp"
-										class="list-group-item "><span class="pull-right"><i
-											class="icon-chevron-right"></i></span>Thêm đề tài</a> <a
-										href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
-										class="list-group-item "><span class="pull-right"><i
-											class="icon-chevron-right"></i></span>Danh sách đề tài</a><a
-										href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
-										class="list-group-item "><span class="pull-right"><i
-											class="icon-chevron-right"></i></span>Xem điểm</a> <a
-										href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
-										class="list-group-item "><span class="pull-right"><i
-											class="icon-chevron-right"></i></span>Vẽ Concept Map</a><a
-										href="http://dkdt.fit.hcmute.edu.vn/danh-sach-giang-vien/page/1.html"
-										class="list-group-item "><span class="pull-right"><i
-											class="icon-chevron-right"></i></span>Thông tin giảng viên</a>
+										class="list-group-item "><span class="pull-right"></span>Thêm đề tài</a> <a
+										href=""
+										class="list-group-item "><span class="pull-right"></span>Danh sách đề tài</a><a
+										href=""
+										class="list-group-item "><span class="pull-right"></span>Xem điểm</a> <a
+										href=""
+										class="list-group-item "><span class="pull-right"></span>Vẽ Concept Map</a><a
+										href=""
+										class="list-group-item "><span class="pull-right"></span>Thông tin giảng viên</a>
 								</div>
 								<!-- /panel-default -->
 
@@ -162,8 +156,7 @@
 										<h4 id="mobile_sinhvien">Hệ thống</h4>
 									</div>
 									<a href="index.jsp" class="list-group-item"><span
-										class="pull-right"><i class="icon-chevron-right"></i></span>Đăng
-										xuất</a>
+										class="pull-right"></span>Đăng xuất</a>
 									<div class="modal fade" id="change_info">
 										<div class="modal-dialog">
 											<div class="modal-content">
@@ -266,12 +259,10 @@
 </style>
 							<ul>
 								<li><a
-									href="http://dkdt.fit.hcmute.edu.vn/user/doi-thong-tin-ca-nhan.html">Đổi
-										thông tin cá nhân</a></li>
+									href="">Đổi thông tin cá nhân</a></li>
 								<hr />
 								<li><a
-									href="http://dkdt.fit.hcmute.edu.vn/user/doi-mat-khau.html">Đổi
-										mật khẩu</a></li>
+									href="">Đổi mật khẩu</a></li>
 								<hr />
 							</ul>
 							<script>
@@ -320,12 +311,7 @@
 												})
 							</script>
 						</div>
-					</div>
-					<ol class="breadcrumb">
-						<li><a href="index.jsp">Trang chủ</a></li>
-						<li class="active">Trang giảng viên</li>
-					</ol>
-
+					</div>					
 				</div>
 			</div>
 		</div>

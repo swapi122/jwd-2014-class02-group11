@@ -45,17 +45,13 @@
 			style="text-align: right; font-weight: bold; font-family: verdana; background-color: #efefef;">Danh
 			Mục</li> 
 			<a href="index.jsp"
-			class="list-group-item "><span class="pull-right"><i
-			class="icon-chevron-right"></i></span>Trang Chủ</a> 
-			<!-- <a href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
-			class="list-group-item "><span class="pull-right"><i
-			class="icon-chevron-right"></i></span>Xem Danh Sách Đề Tài</a> 
-			<a href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
-			class="list-group-item "><span class="pull-right"><i
-			class="icon-chevron-right"></i></span>Xem Điểm</a>
-			<a href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
-			class="list-group-item "><span class="pull-right"><i
-			class="icon-chevron-right"></i></span>Xem Bài Được Share</a> -->
+			class="list-group-item "><span class="pull-right"></span>Trang Chủ</a> 
+			<a href="XemDSDTSV.jsp"
+			class="list-group-item "><span class="pull-right"></span>Xem Danh Sách Đề Tài</a> 
+			<a href=""
+			class="list-group-item "><span class="pull-right"></span>Xem Điểm</a>
+			<a href="XemBaiDuocShare.jsp"
+			class="list-group-item "><span class="pull-right"></span>Xem Bài Được Share</a>
 		<hr />
 		<!-- /.modal -->
 
@@ -98,17 +94,16 @@
 										<h4 id="mobile_home">Danh Mục</h4>
 									</div>
 									<a href="index.jsp"
+										class="list-group-item "><span class="pull-right"></span>Trang Chủ</a> 
+									<a href="xemDSDTSV.jsp"
 										class="list-group-item "><span class="pull-right">
-										</span>Trang Chủ</a> 
-									<a
-										class="list-group-item "><span class="pull-right">
-										</span><a1>Xem Danh Sách Đề Tài</a1> </a> 
-										<a href="XemDiemSV.jsp"
+										</span>Xem Danh Sách Đề Tài </a> 
+										<a href="xemDiemSV.jsp"
 										class="list-group-item "><span class="pull-right">
 										</span>Xem Điểm</a>
-										<a href="XemBaiDuocShare.jsp"
+										<a
 										class="list-group-item "><span class="pull-right">
-										</span>Xem Bài Được Share</a>
+										</span><a1>Xem Bài Được Share</a1></a>
 										</div>
 								<!-- /panel-default -->
 
@@ -158,7 +153,7 @@
 					<ol class="breadcrumb">
 						<li><a href="index.jsp">Trang chủ</a></li>
 						<li class="active">Trang Sinh Viên</li>
-						<li class="active">Xem Danh Sách Đề Tài</li>
+                        <li class="active">Xem Danh Bài Được Share</li>
 					</ol>
 
 					<div class="panel panel-default">
@@ -193,30 +188,27 @@ Chào mừng <span> Sinh Viên </span> <strong class="text-danger">Quách Tĩnh<
 	height: 80px !important;
 }
 </style>
-<h2> Danh Sách Đề Tài Sinh Viên </h2>
+<h2> Các Bài Được Share </h2>
 <div>
 <table width="800" border="1">
   <tbody>
     <tr bgcolor="#C9C7C7">
-      <td>MãĐT </td>
+      <td>MSSV </td>
+      <td>TênSV</td>
       <td>TênĐT</td>
-      <td>Mô Tả</td>
-      <td>Thời Hạn</td>
-      <td>Làm Bài</td>
+      <td>Concept Map</td>
     </tr>
     <tr>
-      <td>DT01</td>
+      <td>11980148</td>
+      <td>Hoàng Dung</td>
       <td>Mind Map</td>
-      <td>Sơ Đồ Tư Duy</td>
-      <td>15/08/2015</td>
-      <td><a href=""><a1>Click</a1></a></td>
+      <td><a href=""><a1>Xem </a1></a></td>
     </tr>
     <tr>
-      <td>DT02</td>
-      <td>Giám Sát Lớp</td>
-      <td>......</td>
-      <td>......</td>
-      <td><a href=""><a1>Đã Làm</a1></a></td>
+      <td>11980123</td>
+      <td>Dương Quá</td>
+      <td>Giám Sát</td>
+      <td><a href=""><a1>Xem</a1></a></td>
     </tr>
   </tbody>
 </table>

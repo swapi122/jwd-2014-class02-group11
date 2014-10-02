@@ -44,27 +44,20 @@
 			giờ 15 phút, ngày 01 tháng 10, 2014</li>
 		<li class="list-group-item"
 			style="text-align: right; font-weight: bold; font-family: verdana; background-color: #efefef;">Danh
-			Mục</li> <a href="http://dkdt.fit.hcmute.edu.vn/trang-chu.chn"
-			class="list-group-item active"><span class="pull-right"><i
-				class="icon-chevron-right"></i></span>Trang Chủ</a> <a
-			href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
-			class="list-group-item "><span class="pull-right"><i
-				class="icon-chevron-right"></i></span>Danh sách đề tài</a> <a
-			href="http://dkdt.fit.hcmute.edu.vn/danh-sach-giang-vien/page/1.html"
-			class="list-group-item "><span class="pull-right"><i
-				class="icon-chevron-right"></i></span>Thông tin giảng viên</a> <a
-			href="http://dkdt.fit.hcmute.edu.vn/danh-sach-sinh-vien/page/1.html"
-			class="list-group-item "><span class="pull-right"><i
-				class="icon-chevron-right"></i></span>Thông tin sinh viên</a> <a
-			href="http://dkdt.fit.hcmute.edu.vn/huong-dan-dang-ky.html"
-			class="list-group-item "><span class="pull-right"><i
-				class="icon-chevron-right"></i></span>Hướng dẫn đăng ký</a> <a
-			href="http://dkdt.fit.hcmute.edu.vn/thong-ke.html"
-			class="list-group-item "><span class="pull-right"><i
-				class="icon-chevron-right"></i></span>Thống kê</a> <a data-toggle="modal"
-			href="http://dkdt.fit.hcmute.edu.vn/#seach_box"
-			class="list-group-item"><span class="pull-right"><i
-				class="icon-chevron-right"></i></span>Tìm kiếm</a>
+			Mục</li> <a href=""
+			class="list-group-item active"><span class="pull-right"></span>Trang Chủ</a> <a
+			href=""
+			class="list-group-item "><span class="pull-right"></span>Danh sách đề tài</a> <a
+			href=""
+			class="list-group-item "><span class="pull-right"></span>Thông tin giảng viên</a> <a
+			href=""
+			class="list-group-item "><span class="pull-right"></span>Thông tin sinh viên</a> <a
+			href=""
+			class="list-group-item "><span class="pull-right"></span>Hướng dẫn đăng ký</a> <a
+			href=""
+			class="list-group-item "><span class="pull-right"></span>Thống kê</a> <a data-toggle="modal"
+			href=""
+			class="list-group-item"><span class="pull-right"></span>Tìm kiếm</a>
 		<hr>
 
 
@@ -150,95 +143,6 @@
 				<!-- /.modal-dialog -->
 			</div>
 			<!-- /.modal -->
-			<!-- ===================================Ajax Login=========================-->
-			<script>
-				$(document)
-						.ready(
-								function() {
-									$("#frm-login")
-											.submit(
-													function(e) {
-														if ($("#username")
-																.val() == '') {
-															$('#err_login')
-																	.html(
-																			'<div class="alert alert-danger">Username chưa nhập</div>');
-															$("#username")
-																	.focus();
-															return false;
-														} else if ($(
-																"#password")
-																.val() == '') {
-															$('#err_login')
-																	.html(
-																			'<div class="alert alert-danger">Password chưa nhập</div>');
-															$("#password")
-																	.focus();
-															return false;
-														} else {
-															var form_data_login = {
-																username : $(
-																		"#username")
-																		.val(),
-																password : $(
-																		"#password")
-																		.val()
-															};
-															$
-																	.ajax({
-																		url : 'http://dkdt.fit.hcmute.edu.vn/xu-ly-dang-nhap',
-																		type : 'POST',
-																		async : true,
-																		data : form_data_login,
-																		success : function(
-																				msg_login) {
-																			//alert(msg);
-																			if (msg_login == 'false') {
-																				$(
-																						'#err_login')
-																						.html(
-																								'<div class="alert alert-danger">Tên hoặc mật khẩu không chính xác</div>');
-																				$(
-																						"#password")
-																						.val(
-																								"");
-																				$(
-																						"#password")
-																						.focus();
-																				return false;
-																			} else {
-																				$(
-																						"#login_here")
-																						.hide();
-																				$(
-																						".modal-footer")
-																						.hide();
-
-																				$(
-																						'#err_login')
-																						.html(
-																								'<div class="alert alert-success"><strong>Đăng nhập thành công</strong><span> Hệ thống tự chuyển sau vài giây ...</span></div>');
-																				setTimeout(
-																						function() {
-																							window.location.href = ''
-																									+ msg_login
-																									+ '';
-																						},
-																						2000);
-																			}
-																		}
-																	});
-															return false;
-														}
-													});
-								})
-				//Load wating bar
-				$(document).ajaxStart(function() {
-					$("#waiting").show();
-				}).ajaxStop(function() {
-					$("#waiting").hide();
-				});
-			</script>
 
 		</div>
 		<div id="wrapper">
@@ -253,22 +157,11 @@
 										<h4 id="mobile_home">Danh Mục</h4>
 									</div>
 									<a href="" class="list-group-item active"><span
-										class="pull-right"><i class="icon-chevron-right"></i></span>Trang
-										Chủ</a><a href="" class="list-group-item "><span
-										class="pull-right"><i class="icon-chevron-right"></i></span>Thông
-										tin giảng viên</a> <a href="" class="list-group-item "><span
-										class="pull-right"><i class="icon-chevron-right"></i></span>Thông
-										tin sinh viên</a>
+										class="pull-right"></span>Trang Chủ</a><a href="" class="list-group-item "><span
+										class="pull-right"></span>Thông tin giảng viên</a> <a href="" class="list-group-item "><span
+										class="pull-right"></span>Thông tin sinh viên</a>
 								</div>
 								<!-- /panel-default -->
-
-								<!--============================Bench==================-->
-								<div class="panel panel-default">
-									<div class="panel-heading">
-										<h4 id="mobile_thongke">&nbsp;</h4>
-									</div>
-								</div>
-							</div>
 
 							<!-- Modal Who online -->
 							<div class="modal fade" id="who_online" tabindex="-1"

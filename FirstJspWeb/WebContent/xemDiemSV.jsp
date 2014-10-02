@@ -45,13 +45,17 @@
 			style="text-align: right; font-weight: bold; font-family: verdana; background-color: #efefef;">Danh
 			Mục</li> 
 			<a href="index.jsp"
-			class="list-group-item "><span class="pull-right"></span>Trang Chủ</a> 
-			<a href="XemDSDTSV.jsp"
-			class="list-group-item "><span class="pull-right"></span>Xem Danh Sách Đề Tài</a> 
-			<a href=""
-			class="list-group-item "><span class="pull-right"></span>Xem Điểm</a>
-			<a href="XemBaiDuocShare.jsp"
-			class="list-group-item "><span class="pull-right"></span>Xem Bài Được Share</a>
+			class="list-group-item "><span class="pull-right"><i
+			class="icon-chevron-right"></i></span>Trang Chủ</a> 
+			<!-- <a href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
+			class="list-group-item "><span class="pull-right"><i
+			class="icon-chevron-right"></i></span>Xem Danh Sách Đề Tài</a> 
+			<a href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
+			class="list-group-item "><span class="pull-right"><i
+			class="icon-chevron-right"></i></span>Xem Điểm</a>
+			<a href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
+			class="list-group-item "><span class="pull-right"><i
+			class="icon-chevron-right"></i></span>Xem Bài Được Share</a> -->
 		<hr />
 		<!-- /.modal -->
 
@@ -95,15 +99,15 @@
 									</div>
 									<a href="index.jsp"
 										class="list-group-item "><span class="pull-right"></span>Trang Chủ</a> 
-									<a href="XemDSDTSV.jsp"
+									<a href="xemDSDTSV.jsp"
 										class="list-group-item "><span class="pull-right">
-										</span>Xem Danh Sách Đề Tài </a> 
-										<a href="XemDiemSV.jsp"
-										class="list-group-item "><span class="pull-right">
-										</span>Xem Điểm</a>
+										</span>Xem Danh Sách Đề Tài</a> 
 										<a
 										class="list-group-item "><span class="pull-right">
-										</span><a1>Xem Bài Được Share</a1></a>
+										</span><a1>Xem Điểm</a1></a>
+										<a href="xemBaiDuocShare.jsp"
+										class="list-group-item "><span class="pull-right">
+										</span>Xem Bài Được Share</a>
 										</div>
 								<!-- /panel-default -->
 
@@ -153,7 +157,7 @@
 					<ol class="breadcrumb">
 						<li><a href="index.jsp">Trang chủ</a></li>
 						<li class="active">Trang Sinh Viên</li>
-                        <li class="active">Xem Danh Bài Được Share</li>
+						<li class="active">Xem Điểm</li>
 					</ol>
 
 					<div class="panel panel-default">
@@ -188,27 +192,27 @@ Chào mừng <span> Sinh Viên </span> <strong class="text-danger">Quách Tĩnh<
 	height: 80px !important;
 }
 </style>
-<h2> Các Bài Được Share </h2>
+<h2> Điểm các đề tài</h2>
 <div>
 <table width="800" border="1">
   <tbody>
     <tr bgcolor="#C9C7C7">
-      <td>MSSV </td>
-      <td>TênSV</td>
+      <td>MãĐT </td>
       <td>TênĐT</td>
-      <td>Concept Map</td>
+      <td>Điểm</td>
+      <td>Lỗi</td>   
     </tr>
     <tr>
-      <td>11980148</td>
-      <td>Hoàng Dung</td>
+      <td>DT01</td>
       <td>Mind Map</td>
-      <td><a href=""><a1>Xem </a1></a></td>
+      <td>8</td>
+      <td><a href=""><a1>Chi Tiết</a1></a></td>
     </tr>
     <tr>
-      <td>11980123</td>
-      <td>Dương Quá</td>
-      <td>Giám Sát</td>
-      <td><a href=""><a1>Xem</a1></a></td>
+      <td>DT02</td>
+      <td>Giám Sát Lớp</td>
+      <td>6</td>      
+      <td><a href=""><a1>Chi Tiết</a1></a></td>
     </tr>
   </tbody>
 </table>
