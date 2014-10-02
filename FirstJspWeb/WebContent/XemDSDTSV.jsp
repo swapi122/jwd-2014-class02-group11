@@ -159,6 +159,7 @@
 					<ol class="breadcrumb">
 						<li><a href="index.jsp">Trang chủ</a></li>
 						<li class="active">Trang Sinh Viên</li>
+						<li class="active">Xem Danh Sách Đề Tài</li>
 					</ol>
 
 					<div class="panel panel-default">
