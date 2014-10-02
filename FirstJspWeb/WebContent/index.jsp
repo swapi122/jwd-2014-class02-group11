@@ -275,7 +275,7 @@
 					</div>
 					<div class="col-md-9">
 						<ol class="breadcrumb">
-							<li><a href="./Home_files/Home.htm">Home</a></li>
+							<li><a href="index.jsp">Trang Chủ</a></li>
 							<li class="active">Thông báo</li>
 						</ol>
 						<div class="well-sm">
