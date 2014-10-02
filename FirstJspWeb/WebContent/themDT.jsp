@@ -45,23 +45,17 @@
 		<li class="list-group-item"
 			style="text-align: right; font-weight: bold; font-family: verdana; background-color: #efefef;">Danh
 			Mục</li> <a href="index.jsp"
-			class="list-group-item "><span class="pull-right"><i
-				class="icon-chevron-right"></i></span>Trang Chủ</a> <a
-			href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
-			class="list-group-item "><span class="pull-right"><i
-				class="icon-chevron-right"></i></span>Thêm đề tài</a> <a
-			href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
-			class="list-group-item "><span class="pull-right"><i
-				class="icon-chevron-right"></i></span>Danh sách đề tài</a><a
-			href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
-			class="list-group-item "><span class="pull-right"><i
-				class="icon-chevron-right"></i></span>Xem điểm</a> <a
-			href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
-			class="list-group-item "><span class="pull-right"><i
-				class="icon-chevron-right"></i></span>Vẽ Concept Map</a><a
-			href="http://dkdt.fit.hcmute.edu.vn/danh-sach-giang-vien/page/1.html"
-			class="list-group-item "><span class="pull-right"><i
-				class="icon-chevron-right"></i></span>Thông tin giảng viên</a>
+			class="list-group-item "><span class="pull-right"></span>Trang Chủ</a> <a
+			href=""
+			class="list-group-item "><span class="pull-right"></span><a1>Thêm đề tài</a1></a> <a
+			href=""
+			class="list-group-item "><span class="pull-right"></span>Danh sách đề tài</a><a
+			href=""
+			class="list-group-item "><span class="pull-right"></span>Xem điểm</a> <a
+			href=""
+			class="list-group-item "><span class="pull-right"></span>Vẽ Concept Map</a><a
+			href=""
+			class="list-group-item "><span class="pull-right"></span>Thông tin giảng viên</a>
 
 
 
@@ -137,23 +131,17 @@
 										<h4 id="mobile_home">Danh Mục</h4>
 									</div>
 									<a href="index.jsp"
-										class="list-group-item "><span class="pull-right"><i
-											class="icon-chevron-right"></i></span>Trang Chủ</a> <a
-										href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
-										class="list-group-item "><span class="pull-right"><i
-											class="icon-chevron-right"></i></span>Thêm đề tài</a> <a
-										href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
-										class="list-group-item "><span class="pull-right"><i
-											class="icon-chevron-right"></i></span>Danh sách đề tài</a><a
-										href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
-										class="list-group-item "><span class="pull-right"><i
-											class="icon-chevron-right"></i></span>Xem điểm</a> <a
-										href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
-										class="list-group-item "><span class="pull-right"><i
-											class="icon-chevron-right"></i></span>Vẽ Concept Map</a><a
-										href="http://dkdt.fit.hcmute.edu.vn/danh-sach-giang-vien/page/1.html"
-										class="list-group-item "><span class="pull-right"><i
-											class="icon-chevron-right"></i></span>Thông tin giảng viên</a>
+										class="list-group-item "><span class="pull-right"></span>Trang Chủ</a> 
+										<a href=""
+										class="list-group-item "><span class="pull-right"></span><a1>Thêm đề tài</a1></a> 
+										<a href=""
+										class="list-group-item "><span class="pull-right"></span>Danh sách đề tài</a>
+										<a href=""
+										class="list-group-item "><span class="pull-right"></span>Xem điểm</a> 
+										<a href=""
+										class="list-group-item "><span class="pull-right"></span>Vẽ Concept Map</a>
+										<a href=""
+										class="list-group-item "><span class="pull-right"></span>Thông tin giảng viên</a>
 								</div>
 								<!-- /panel-default -->
 
@@ -242,12 +230,7 @@
 								</FORM>
 						</div>
 						
-					</div>
-					<ol class="breadcrumb">
-						<li><a href="index.jsp">Trang chủ</a></li>
-						<li class="active">Thêm đề tài</li>
-					</ol>
-
+					</div>					
 				</div>
 			</div>
 		</div>

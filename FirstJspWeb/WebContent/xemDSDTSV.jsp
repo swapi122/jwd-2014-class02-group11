@@ -98,14 +98,15 @@
 										<h4 id="mobile_home">Danh Mục</h4>
 									</div>
 									<a href="index.jsp"
-										class="list-group-item "><span class="pull-right"></span>Trang Chủ</a> 
-									<a href="XemDSDTSV.jsp"
 										class="list-group-item "><span class="pull-right">
-										</span>Xem Danh Sách Đề Tài</a> 
-										<a
+										</span>Trang Chủ</a> 
+									<a
 										class="list-group-item "><span class="pull-right">
-										</span><a1>Xem Điểm</a1></a>
-										<a href="XemBaiDuocShare.jsp"
+										</span><a1>Xem Danh Sách Đề Tài</a1> </a> 
+										<a href="xemDiemSV.jsp"
+										class="list-group-item "><span class="pull-right">
+										</span>Xem Điểm</a>
+										<a href="xemBaiDuocShare.jsp"
 										class="list-group-item "><span class="pull-right">
 										</span>Xem Bài Được Share</a>
 										</div>
@@ -157,7 +158,7 @@
 					<ol class="breadcrumb">
 						<li><a href="index.jsp">Trang chủ</a></li>
 						<li class="active">Trang Sinh Viên</li>
-						<li class="active">Xem Điểm</li>
+						<li class="active">Xem Danh Sách Đề Tài</li>
 					</ol>
 
 					<div class="panel panel-default">
@@ -192,27 +193,30 @@ Chào mừng <span> Sinh Viên </span> <strong class="text-danger">Quách Tĩnh<
 	height: 80px !important;
 }
 </style>
-<h2> Điểm các đề tài</h2>
+<h2> Danh Sách Đề Tài Sinh Viên </h2>
 <div>
 <table width="800" border="1">
   <tbody>
     <tr bgcolor="#C9C7C7">
       <td>MãĐT </td>
       <td>TênĐT</td>
-      <td>Điểm</td>
-      <td>Lỗi</td>   
+      <td>Mô Tả</td>
+      <td>Thời Hạn</td>
+      <td>Làm Bài</td>
     </tr>
     <tr>
       <td>DT01</td>
       <td>Mind Map</td>
-      <td>8</td>
-      <td><a href=""><a1>Chi Tiết</a1></a></td>
+      <td>Sơ Đồ Tư Duy</td>
+      <td>15/08/2015</td>
+      <td><a href=""><a1>Click</a1></a></td>
     </tr>
     <tr>
       <td>DT02</td>
       <td>Giám Sát Lớp</td>
-      <td>6</td>      
-      <td><a href=""><a1>Chi Tiết</a1></a></td>
+      <td>......</td>
+      <td>......</td>
+      <td><a href=""><a1>Đã Làm</a1></a></td>
     </tr>
   </tbody>
 </table>
