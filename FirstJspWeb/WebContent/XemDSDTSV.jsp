@@ -106,7 +106,7 @@
 										<a
 										class="list-group-item "><span class="pull-right">
 										<i class="icon-chevron-right"></i></span>Xem Điểm</a>
-										<a 
+										<a href="XemBaiDuocShare.jsp"
 										class="list-group-item "><span class="pull-right">
 										<i class="icon-chevron-right"></i></span>Xem Bài Được Share</a>
 										</div>
