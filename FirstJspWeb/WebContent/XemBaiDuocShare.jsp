@@ -103,7 +103,7 @@
 									<a href="XemDSDTSV.jsp"
 										class="list-group-item "><span class="pull-right">
 										<i class="icon-chevron-right" ></i></span>Xem Danh Sách Đề Tài </a> 
-										<a
+										<a href="XemDiemSV.jsp"
 										class="list-group-item "><span class="pull-right">
 										<i class="icon-chevron-right"></i></span>Xem Điểm</a>
 										<a
@@ -194,6 +194,7 @@ Chào mừng <span> Sinh Viên </span> <strong class="text-danger">Quách Tĩnh<
 	height: 80px !important;
 }
 </style>
+<h2> Các Bài Được Share </h2>
 <div>
 <table width="800" border="1">
   <tbody>
