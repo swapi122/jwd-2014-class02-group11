@@ -45,17 +45,13 @@
 			style="text-align: right; font-weight: bold; font-family: verdana; background-color: #efefef;">Danh
 			Mục</li> 
 			<a href="index.jsp"
-			class="list-group-item "><span class="pull-right"><i
-			class="icon-chevron-right"></i></span>Trang Chủ</a> 
+			class="list-group-item "><span class="pull-right"></span>Trang Chủ</a> 
 			<a href="XemDSDTSV.jsp"
-			class="list-group-item "><span class="pull-right"><i
-			class="icon-chevron-right"></i></span>Xem Danh Sách Đề Tài</a> 
+			class="list-group-item "><span class="pull-right"></span>Xem Danh Sách Đề Tài</a> 
 			<a href=""
-			class="list-group-item "><span class="pull-right"><i
-			class="icon-chevron-right"></i></span>Xem Điểm</a>
+			class="list-group-item "><span class="pull-right"></span>Xem Điểm</a>
 			<a href="XemBaiDuocShare.jsp"
-			class="list-group-item "><span class="pull-right"><i
-			class="icon-chevron-right"></i></span>Xem Bài Được Share</a>
+			class="list-group-item "><span class="pull-right"></span>Xem Bài Được Share</a>
 		<hr />
 		<!-- /.modal -->
 
@@ -98,17 +94,16 @@
 										<h4 id="mobile_home">Danh Mục</h4>
 									</div>
 									<a href="index.jsp"
-										class="list-group-item "><span class="pull-right"><i
-											class="icon-chevron-right"></i></span>Trang Chủ</a> 
+										class="list-group-item "><span class="pull-right"></span>Trang Chủ</a> 
 									<a href="XemDSDTSV.jsp"
 										class="list-group-item "><span class="pull-right">
-										<i class="icon-chevron-right" ></i></span>Xem Danh Sách Đề Tài </a> 
+										</span>Xem Danh Sách Đề Tài </a> 
 										<a href="XemDiemSV.jsp"
 										class="list-group-item "><span class="pull-right">
-										<i class="icon-chevron-right"></i></span>Xem Điểm</a>
+										</span>Xem Điểm</a>
 										<a
 										class="list-group-item "><span class="pull-right">
-										<i class="icon-chevron-right"></i></span><a1>Xem Bài Được Share</a1></a>
+										</span><a1>Xem Bài Được Share</a1></a>
 										</div>
 								<!-- /panel-default -->
 
@@ -117,8 +112,7 @@
 										<h4 id="mobile_sinhvien">Hệ thống</h4>
 									</div>
 									<a href="index.jsp" class="list-group-item"><span
-										class="pull-right"><i class="icon-chevron-right"></i></span>Đăng
-										xuất</a>
+										class="pull-right"></span>Đăng xuất</a>
 									<div class="modal fade" id="change_info">
 										<div class="modal-dialog">										
 											<!-- /.modal-content -->
