@@ -47,7 +47,7 @@
 			Mục</li> <a href="index.jsp"
 			class="list-group-item "><span class="pull-right"><i
 				class="icon-chevron-right"></i></span>Trang Chủ</a> <a
-			href="themDT.jsp"
+			href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
 			class="list-group-item "><span class="pull-right"><i
 				class="icon-chevron-right"></i></span>Thêm đề tài</a> <a
 			href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
@@ -139,7 +139,7 @@
 									<a href="index.jsp"
 										class="list-group-item "><span class="pull-right"><i
 											class="icon-chevron-right"></i></span>Trang Chủ</a> <a
-										href="themDT.jsp"
+										href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
 										class="list-group-item "><span class="pull-right"><i
 											class="icon-chevron-right"></i></span>Thêm đề tài</a> <a
 										href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
@@ -225,105 +225,27 @@
 				<div class="col-md-9">
 					<ol class="breadcrumb">
 						<li><a href="index.jsp">Trang chủ</a></li>
-						<li class="active">Trang giảng viên</li>
+						<li class="active">Thêm đề tài</li>
 					</ol>
 
 					<div class="panel panel-default">
 						<div style="color: rgb(7, 132, 163);" class="panel-heading">
-							<h4 style="font-family: verdana; color: rgb(87, 87, 87);">Quản
-								trị tài khoản</h4>
+							<h4 style="font-family: verdana; color: rgb(87, 87, 87);">Điền thông tin đề tài</h4>
+								<FORM>
+								<P>Mã đề tài:<INPUT TYPE="text" NAME="madt">                Tên đề tài:<INPUT TYPE="text" NAME="tendt"></P>
+								<P>Lớp: <select size="0"><option selected="selected" value="">Lập trình web 1</option> <option selected="selected" value="">Lập trình web 2</option> <option selected="selected" value="">Thiết kế phần mềm HDT</option> </select>                
+								Đáp án:<select size="0"><option selected="selected" value="">Concept Map 1</option> <option selected="selected" value="">Concept Map 2</option> <option selected="selected" value="">Concept Map 3</option> </select>
+								Hạn nộp bài:  <input type="date" name="bday"/></P>
+								<P>Mô tả:<TEXTAREA NAME="so_thich_khac" COLS="40" ROWS="5">Mô tả và yêu cầu của đề tài hãy viết vào đây:</TEXTAREA></P>
+								<P><INPUT TYPE="submit" VALUE="Thêm đề tài"> <INPUT TYPE="reset" VALUE="Làm lại"></P>
+								
+								</FORM>
 						</div>
-						<div class="panel-body">
-							<div class="alert alert-info">
-								<div id="avatar" style="float: left; margin-right: 20px;">
-									<object style="width: 92px; height: 92px;"
-										class="img-thumbnail img-responsive"
-										data="http://online.hcmute.edu.vn/HinhSV/11110087.jpg">
-										<img style="width: 82px; height: 82px;" class="img-responsive"
-											src="http://dkdt.fit.hcmute.edu.vn/public/images/upload-image/noavatar92.png" />
-									</object>
-								</div>
-								Chào mừng <span> giảng viên </span> <strong class="text-danger">Nguyễn
-									Văn A</strong> <br /> đến với hệ thống ConceptMap Khoa Công Nghệ Thông
-								Tin <br />
-								<div class="clearfix"></div>
-							</div>
-
-							<!--
-<h3 class="text-info">Thông tin cấu hình : </h3>
-<hr />
-<ul>
-    -->
-
-							<hr />
-							<h3 class="text-danger">Quản trị tài khoản :</h3>
-							<hr />
-							<style>
-#img-cover img {
-	width: 80px !important;
-	height: 80px !important;
-}
-</style>
-							<ul>
-								<li><a
-									href="http://dkdt.fit.hcmute.edu.vn/user/doi-thong-tin-ca-nhan.html">Đổi
-										thông tin cá nhân</a></li>
-								<hr />
-								<li><a
-									href="http://dkdt.fit.hcmute.edu.vn/user/doi-mat-khau.html">Đổi
-										mật khẩu</a></li>
-								<hr />
-							</ul>
-							<script>
-								$(document)
-										.ready(
-												function() {
-													$("input")
-															.change(
-																	function(e) {
-																		for (var i = 0; i < e.originalEvent.srcElement.files.length; i++) {
-																			var file = e.originalEvent.srcElement.files[i];
-
-																			var img = document
-																					.createElement("img");
-																			var reader = new FileReader();
-																			reader.onloadend = function() {
-																				img.src = reader.result;
-																			}
-																			reader
-																					.readAsDataURL(file);
-																			$(
-																					"#img-cover")
-																					.show();
-																			$(
-																					"#img-cover")
-																					.html(
-																							img);
-																			$(
-																					"#upload")
-																					.show();
-																		}
-																	});
-													//upload ajax
-													$("#upload")
-															.click(
-																	function() {
-																		//alert("ok");
-																		var imgVal = $(
-																				'#uploadImage')
-																				.val();
-																		if (imgVal == '') {
-																			alert("Bạn chưa chọn hình");
-																			return false;
-																		}
-																	})
-												})
-							</script>
-						</div>
+						
 					</div>
 					<ol class="breadcrumb">
 						<li><a href="index.jsp">Trang chủ</a></li>
-						<li class="active">Trang giảng viên</li>
+						<li class="active">Thêm đề tài</li>
 					</ol>
 
 				</div>
@@ -339,7 +261,7 @@
 				TP. Hồ Chí Minh</h5>
 		</div>
 	</div>
-	</div>
+	
 	<!-- End #container -->
 
 </body>

@@ -110,6 +110,8 @@
 										id="password"> <br> <a
 										href="http://dkdt.fit.hcmute.edu.vn/quen-mat-khau.html"
 										class="text-danger">Quên mật khẩu</a>
+										<P>Sinh viên: <INPUT TYPE="radio" NAME="phai" VALUE="nam">
+										Giảng viên: <INPUT TYPE="radio" NAME="phai" VALUE="nu"></P>
 								</div>
 								<br>
 								<div id="waiting" style="display: none;">
