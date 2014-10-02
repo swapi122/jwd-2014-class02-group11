@@ -47,13 +47,13 @@
 			<a href="index.jsp"
 			class="list-group-item "><span class="pull-right"><i
 			class="icon-chevron-right"></i></span>Trang Chủ</a> 
-			<a href="xemDSDTSV.jsp"
+			<!-- <a href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
 			class="list-group-item "><span class="pull-right"><i
 			class="icon-chevron-right"></i></span>Xem Danh Sách Đề Tài</a> 
-			<a href="xemDiemSV.jsp"
+			<a href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
 			class="list-group-item "><span class="pull-right"><i
 			class="icon-chevron-right"></i></span>Xem Điểm</a>
-			<a href="xemBaiDuocShare.jsp"
+			<a href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
 			class="list-group-item "><span class="pull-right"><i
 			class="icon-chevron-right"></i></span>Xem Bài Được Share</a> -->
 		<hr />
@@ -197,22 +197,14 @@ Chào mừng <span> Sinh Viên </span> <strong class="text-danger">Quách Tĩnh<
 <table width="800" border="1">
   <tbody>
     <tr bgcolor="#C9C7C7">
-      <td>MãĐT </td>
-      <td>TênĐT</td>
-      <td>Điểm</td>
-      <td>Lỗi</td>   
+      <td>STT </td>
+      <td>Tên concept</td>
+      <td>Tài liệu tham khảo</td>  
     </tr>
     <tr>
-      <td>DT01</td>
-      <td>Mind Map</td>
-      <td>8</td>
-      <td><a href="chiTietLoi.jsp"><a1>Chi Tiết</a1></a></td>
-    </tr>
-    <tr>
-      <td>DT02</td>
-      <td>Giám Sát Lớp</td>
-      <td>6</td>      
-      <td><a href=""><a1>Chi Tiết</a1></a></td>
+      <td>01</td>
+      <td>Concept map</td>
+      <td><a href=""><a1>Doc</a1></a></td>
     </tr>
   </tbody>
 </table>
