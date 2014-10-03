@@ -209,14 +209,14 @@ Chào mừng <span> Sinh Viên </span> <strong class="text-danger">Quách Tĩnh<
       <td>Mind Map</td>
       <td>Sơ Đồ Tư Duy</td>
       <td>15/08/2015</td>
-      <td><a href=""><a1>Click</a1></a></td>
+      <td><a href="veConceptMapSV.jsp"><a1>Click</a1></a></td>
     </tr>
     <tr>
       <td>DT02</td>
       <td>Giám Sát Lớp</td>
       <td>......</td>
       <td>......</td>
-      <td><a href=""><a1>Đã Làm</a1></a></td>
+      <td><a href="veConceptMapSV.jsp"><a1>Đã Làm</a1></a></td>
     </tr>
   </tbody>
 </table>
