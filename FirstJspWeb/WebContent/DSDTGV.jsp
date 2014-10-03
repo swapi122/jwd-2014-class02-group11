@@ -224,6 +224,8 @@
 								<hr>Tài liệu:<input type="text" name="tailieu"><input type="button" value="Brown"/></hr>
 								<hr>Đáp án:<select size="0"><option selected="selected" value="">Concept Map 2</option> <option selected="selected" value="">Concept Map 1</option> <option selected="selected" value="">List các concept đã được vẽ</option></hr></select>
 								<hr>Hạn nộp bài:  <input type="text" class= "date"/></hr>
+ <p> </p>
+ <p> </p>
  <div>
  <table width="800" border="1">
   <tbody>
@@ -253,7 +255,7 @@
     </tr>
   </tbody>
 </table>
- </div>                              							
+ </div>                         <p> </p>     							
 								<P><INPUT TYPE="submit" VALUE="Sửa">
                                 <INPUT TYPE="button" VALUE="Lưu">
                                 <INPUT TYPE="reset" VALUE="Hủy">
