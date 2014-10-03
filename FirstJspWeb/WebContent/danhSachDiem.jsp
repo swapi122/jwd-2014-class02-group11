@@ -1,9 +1,10 @@
-<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+<%@ page language="java" contentType="text/html; charset=utf-8"
+	pageEncoding="utf-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>::. Quản trị tài khoản .::</title>
+<title>::. Danh sách điểm .::</title>
 <link rel="icon"
 	href="http://dkdt.fit.hcmute.edu.vn/public/images/it_spkt.png"
 	type="image/x-icon">
@@ -43,19 +44,13 @@
 			giờ 53 phút, ngày 02 tháng 10, 2014</li>
 		<li class="list-group-item"
 			style="text-align: right; font-weight: bold; font-family: verdana; background-color: #efefef;">Danh
-			Mục</li> 
-			<a href="index.jsp"
-			class="list-group-item "><span class="pull-right"><i
-			class="icon-chevron-right"></i></span>Trang Chủ</a> 
-			<!-- <a href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
-			class="list-group-item "><span class="pull-right"><i
-			class="icon-chevron-right"></i></span>Xem Danh Sách Đề Tài</a> 
-			<a href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
-			class="list-group-item "><span class="pull-right"><i
-			class="icon-chevron-right"></i></span>Xem Điểm</a>
-			<a href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
-			class="list-group-item "><span class="pull-right"><i
-			class="icon-chevron-right"></i></span>Xem Bài Được Share</a> -->
+			Mục</li> <a href="index.jsp" class="list-group-item "><span
+			class="pull-right"></span>Trang Chủ</a> <a href="XemDSDTSV.jsp"
+			class="list-group-item "><span class="pull-right"></span>Xem Danh
+			Sách Đề Tài</a> <a href="" class="list-group-item "><span
+			class="pull-right"></span>Xem Điểm</a> <a href="XemBaiDuocShare.jsp"
+			class="list-group-item "><span class="pull-right"></span>Xem Bài
+			Được Share</a>
 		<hr />
 		<!-- /.modal -->
 
@@ -75,7 +70,8 @@
 				<div class="container">
 					<div id="banner">
 						<div id="login-area">
-							<a data-toggle="modal" href="#thong_tin"><i>SV </i>: Quách Tĩnh </a>
+							<a data-toggle="modal" href="#thong_tin"><i>SV </i>: Quách
+								Tĩnh </a>
 						</div>
 					</div>
 				</div>
@@ -97,19 +93,15 @@
 									<div class="panel-heading">
 										<h4 id="mobile_home">Danh Mục</h4>
 									</div>
-									<a href="index.jsp"
+									<a href="index.jsp" class="list-group-item "><span
+										class="pull-right"></span>Trang Chủ</a> <a href="xemDSDTSV.jsp"
 										class="list-group-item "><span class="pull-right">
-										</span>Trang Chủ</a> 
-									<a 
+									</span>Xem Danh Sách Đề Tài </a> <a href=""
 										class="list-group-item "><span class="pull-right">
-										</span><a1>Xem Danh Sách Đề Tài</a1> </a> 
-										<a href="danhSachDiem.jsp"
-										class="list-group-item "><span class="pull-right">
-										</span>Xem Điểm</a>
-										<a href="xemBaiDuocShare.jsp"
-										class="list-group-item "><span class="pull-right">
-										</span>Xem Bài Được Share</a>
-										</div>
+									</span><a1>Xem Điểm</a1></a> <a href="xemBaiDuocShare.jsp" class="list-group-item" ><span
+										class="pull-right"> </span>
+									Xem Bài Được Share</a>
+								</div>
 								<!-- /panel-default -->
 
 								<div class="panel panel-default">
@@ -119,7 +111,7 @@
 									<a href="index.jsp" class="list-group-item"><span
 										class="pull-right"></span>Đăng xuất</a>
 									<div class="modal fade" id="change_info">
-										<div class="modal-dialog">										
+										<div class="modal-dialog">
 											<!-- /.modal-content -->
 										</div>
 										<!-- /.modal-dialog -->
@@ -158,7 +150,7 @@
 					<ol class="breadcrumb">
 						<li><a href="index.jsp">Trang chủ</a></li>
 						<li class="active">Trang Sinh Viên</li>
-						<li class="active">Xem Danh Sách Đề Tài</li>
+						<li class="active">Xem danh sách điểm</li>
 					</ol>
 
 					<div class="panel panel-default">
@@ -168,7 +160,7 @@
 						</div>
 						<div class="panel-body">
 							<div class="alert alert-info">
-							  <div id="avatar" style="float: left; margin-right: 20px;">
+								<div id="avatar" style="float: left; margin-right: 20px;">
 									<object style="width: 92px; height: 92px;"
 										class="img-thumbnail img-responsive"
 										data="http://online.hcmute.edu.vn/HinhSV/11110087.jpg">
@@ -176,8 +168,8 @@
 											src="http://dkdt.fit.hcmute.edu.vn/public/images/upload-image/noavatar92.png" />
 									</object>
 								</div>
-Chào mừng <span> Sinh Viên </span> <strong class="text-danger">Quách Tĩnh</strong> <br>
-đến với hệ thống ConceptMap Khoa Công Nghệ Thông
+								Chào mừng <span> Sinh Viên </span> <strong class="text-danger">Quách
+									Tĩnh</strong> <br> đến với hệ thống ConceptMap Khoa Công Nghệ Thông
 								Tin <br>
 								<div class="clearfix"></div>
 							</div>
@@ -187,41 +179,32 @@ Chào mừng <span> Sinh Viên </span> <strong class="text-danger">Quách Tĩnh<
 <hr />
 <ul>
     -->
-<style>
+							<style>
 #img-cover img {
 	width: 80px !important;
 	height: 80px !important;
 }
 </style>
-<h2> Danh Sách Đề Tài Sinh Viên </h2>
-<div>
-<table width="800" border="1">
-  <tbody>
-    <tr bgcolor="#C9C7C7">
-      <td>MãĐT </td>
-      <td>TênĐT</td>
-      <td>Mô Tả</td>
-      <td>Thời Hạn</td>
-      <td>Làm Bài</td>
-    </tr>
-    <tr>
-      <td>DT01</td>
-      <td>Mind Map</td>
-      <td>Sơ Đồ Tư Duy</td>
-      <td>15/08/2015</td>
-      <td><a href=""><a1>Click</a1></a></td>
-    </tr>
-    <tr>
-      <td>DT02</td>
-      <td>Giám Sát Lớp</td>
-      <td>......</td>
-      <td>......</td>
-      <td><a href=""><a1>Đã Làm</a1></a></td>
-    </tr>
-  </tbody>
-</table>
+							<h2>Danh sách điểm theo đề tài</h2>
+							<div>
+								<table width="800" border="1">
+									<tbody>
+										<tr bgcolor="#C9C7C7">
+											<td>Mã đề tài</td>
+											<td>Tên đề tài</td>
+											<td>Điểm</td>
+											<td>Lỗi</td>
+										</tr>
+										<tr>
+											<td>DT01</td>
+											<td>Concept map</td>
+											<td>8</td>
+											<td><a href="chiTietLoi.jsp"><a1>Xem </a1></a></td>
+										</tr>
+									</tbody>
+								</table>
 
-</div>							
+							</div>
 							<script>
 								$(document)
 										.ready(
@@ -268,7 +251,7 @@ Chào mừng <span> Sinh Viên </span> <strong class="text-danger">Quách Tĩnh<
 												})
 							</script>
 						</div>
-					</div>				
+					</div>
 				</div>
 			</div>
 		</div>

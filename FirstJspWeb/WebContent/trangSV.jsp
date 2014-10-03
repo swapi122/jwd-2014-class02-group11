@@ -99,11 +99,11 @@
 									</div>
 									<a href="index.jsp"
 										class="list-group-item "><span class="pull-right"></span>Trang Chủ</a> 
-									<a 
+									<a href="xemDSDTSV.jsp"
 										class="list-group-item "><span class="pull-right"></span>Xem Danh Sách Đề Tài</a> 
-										<a
+										<a href="danhSachDiem.jsp"
 										class="list-group-item "><span class="pull-right"></span>Xem Điểm</a>
-										<a 
+										<a href="xemBaiDuocShare.jsp"
 										class="list-group-item "><span class="pull-right"></span>Xem Bài Được Share</a>
 										</div>
 								<!-- /panel-default -->

@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>::. Quản trị tài khoản .::</title>
+<title>::. Danh sách các concept map được chia sẻ .::</title>
 <link rel="icon"
 	href="http://dkdt.fit.hcmute.edu.vn/public/images/it_spkt.png"
 	type="image/x-icon">
@@ -98,12 +98,12 @@
 									<a href="xemDSDTSV.jsp"
 										class="list-group-item "><span class="pull-right">
 										</span>Xem Danh Sách Đề Tài </a> 
-										<a href="xemDiemSV.jsp"
+										<a href="danhSachDiem.jsp"
 										class="list-group-item "><span class="pull-right">
 										</span>Xem Điểm</a>
 										<a
 										class="list-group-item "><span class="pull-right">
-										</span><a1>Xem Bài Được Share</a1></a>
+										</span><a1>Xem bài được chia sẻ</a1></a>
 										</div>
 								<!-- /panel-default -->
 
@@ -153,7 +153,7 @@
 					<ol class="breadcrumb">
 						<li><a href="index.jsp">Trang chủ</a></li>
 						<li class="active">Trang Sinh Viên</li>
-                        <li class="active">Xem Danh Bài Được Share</li>
+                        <li class="active">Xem bài được chia sẻ</li>
 					</ol>
 
 					<div class="panel panel-default">
