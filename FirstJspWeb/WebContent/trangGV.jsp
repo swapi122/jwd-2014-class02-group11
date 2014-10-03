@@ -62,9 +62,6 @@
 			href=""
 			class="list-group-item "><span class="pull-right"><i
 				class="icon-chevron-right"></i></span>Thông tin giảng viên</a>
-
-
-
 		<hr />
 
 		<div class="modal fade" id="change_info">
@@ -140,9 +137,9 @@
 										class="list-group-item "><span class="pull-right"></span>Trang Chủ</a> <a
 										href="themDT.jsp"
 										class="list-group-item "><span class="pull-right"></span>Thêm đề tài</a> <a
-										href="DSDTGV.jsp"
+										href="xemDTGV.jsp"
 										class="list-group-item "><span class="pull-right"></span>Danh sách đề tài</a><a
-										href="xemDiemGV.jsp"
+										href="gVXemDiemSV.jsp"
 										class="list-group-item "><span class="pull-right"></span>Xem điểm</a> <a
 										href="conCeptMapGV.jsp"
 										class="list-group-item "><span class="pull-right"></span>Vẽ Concept Map</a><a

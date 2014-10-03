@@ -134,9 +134,9 @@
 										class="list-group-item "><span class="pull-right"></span>Trang Chủ</a> 
 										<a href=""
 										class="list-group-item "><span class="pull-right"></span><a1>Thêm đề tài</a1></a> 
-										<a href="DSDTGV.jsp"
+										<a href="xemDTGV.jsp"
 										class="list-group-item "><span class="pull-right"></span>Danh sách đề tài</a>
-										<a href="xemDiemGV.jsp"
+										<a href="gVXemDiemSV.jsp"
 										class="list-group-item "><span class="pull-right"></span>Xem điểm</a> 
 										<a href=""
 										class="list-group-item "><span class="pull-right"></span>Vẽ Concept Map</a>

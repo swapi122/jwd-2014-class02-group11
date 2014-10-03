@@ -50,19 +50,21 @@
 	<div id="menu">
 		<li class="list-group-item" id="time"
 			style="font-size: 11px; background-color: #3b5998; font-weight: bold; color: rgb(250, 250, 250);">03
-			gi? 53 phút, ngày 02 tháng 10, 2014</li>
+			giờ 53 phút, ngày 02 tháng 10, 2014</li>
 		<li class="list-group-item"
 			style="text-align: right; font-weight: bold; font-family: verdana; background-color: #efefef;">Danh
-			M?c</li> <a href="index.jsp" class="list-group-item "><span
-			class="pull-right"><i class="icon-chevron-right"></i></span>Trang chủ</a>
+			Mục</li> <a href="index.jsp" class="list-group-item "><span
+			class="pull-right"><i class="icon-chevron-right"></i></span>Trang Chủ</a>
+		<a href="themDT.jsp" class="list-group-item "><span
+			class="pull-right"><i class="icon-chevron-right"></i></span>Thêm đề
+			tài</a> <a href="xemDTGV.jsp" class="list-group-item "><span
+			class="pull-right"><i class="icon-chevron-right"></i></span>Danh sách
+			đề tài</a><a href="gVXemDiemSV.jsp" class="list-group-item "><span
+			class="pull-right"><i class="icon-chevron-right"></i></span>Xem điểm</a>
 		<a href="" class="list-group-item "><span class="pull-right"><i
-				class="icon-chevron-right"></i></span>T</a> <a href="" class="list-group-item "><span
-			class="pull-right"><i class="icon-chevron-right"></i></span>Danh sách
-			đề tài</a><a href="danhSachDiem.jsp" class="list-group-item "><span
-			class="pull-right"><i class="icon-chevron-right"></i></span>Danh sách
-			điểm</a> <a href="danhSachChiaSe.jsp" class="list-group-item "><span
-			class="pull-right"><i class="icon-chevron-right"></i></span>Đề tài
-			được chia sẻ</a>
+				class="icon-chevron-right"></i></span>Vẽ Concept Map</a><a href=""
+			class="list-group-item "><span class="pull-right"><i
+				class="icon-chevron-right"></i></span>Thông tin giảng viên</a>
 		<hr />
 	</div>
 	<div id="container">
@@ -103,12 +105,18 @@
 										<h4 id="mobile_home">Danh Mục</h4>
 									</div>
 									<a href="index.jsp" class="list-group-item "><span
-										class="pull-right"></span>Trang Chủ</a> <a href=""
-										class="list-group-item "><span class="pull-right"></span>Danh
-										sách đề tài</a><a href="danhSachDiem.jsp" class="list-group-item "><span
-										class="pull-right"></span>Danh sách điểm</a> <a
-										href="danhSachChiaSe.jsp" class="list-group-item "><span
-										class="pull-right"></span>Đề tài được chia sẻ</a>
+										class="pull-right"><i class="icon-chevron-right"></i></span>Trang
+										Chủ</a> <a href="themDT.jsp" class="list-group-item "><span
+										class="pull-right"><i class="icon-chevron-right"></i></span>Thêm
+										đề tài</a> <a href="xemDTGV.jsp" class="list-group-item "><span
+										class="pull-right"><i class="icon-chevron-right"></i></span>Danh
+										sách đề tài</a><a href="gVXemDiemSV.jsp" class="list-group-item "><span
+										class="pull-right"><i class="icon-chevron-right"></i></span>Xem
+										điểm</a> <a href="" class="list-group-item "><span
+										class="pull-right"><i class="icon-chevron-right"></i></span>Vẽ
+										Concept Map</a><a href="" class="list-group-item "><span
+										class="pull-right"><i class="icon-chevron-right"></i></span>Thông
+										tin giảng viên</a>
 								</div>
 								<!-- /panel-default -->
 
@@ -183,7 +191,7 @@
 														<tr>
 															<td>11110043</td>
 															<td>Nguyen Van B</td>
-															<td>8</td>															
+															<td>8</td>
 														</tr>
 													</tbody>
 												</table>
