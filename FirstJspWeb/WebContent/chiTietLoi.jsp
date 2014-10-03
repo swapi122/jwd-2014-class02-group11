@@ -158,6 +158,7 @@
 						<li><a href="index.jsp">Trang chủ</a></li>
 						<li class="active">Trang Sinh Viên</li>
 						<li class="active">Xem Điểm</li>
+						<li class="active">Chi tiết lỗi</li>						
 					</ol>
 
 					<div class="panel panel-default">

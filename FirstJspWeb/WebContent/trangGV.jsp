@@ -44,7 +44,7 @@
 			giờ 53 phút, ngày 02 tháng 10, 2014</li>
 		<li class="list-group-item"
 			style="text-align: right; font-weight: bold; font-family: verdana; background-color: #efefef;">Danh
-			Mục</li> <a href="index.jsp"
+			Mục</li> <a href=""
 			class="list-group-item "><span class="pull-right"><i
 				class="icon-chevron-right"></i></span>Trang Chủ</a> <a
 			href="themDT.jsp"
@@ -141,7 +141,7 @@
 										class="list-group-item "><span class="pull-right"></span>Danh sách đề tài</a><a
 										href="gVXemDiemSV.jsp"
 										class="list-group-item "><span class="pull-right"></span>Xem điểm</a> <a
-										href="conCeptMapGV.jsp"
+										href=""
 										class="list-group-item "><span class="pull-right"></span>Vẽ Concept Map</a><a
 										href=""
 										class="list-group-item "><span class="pull-right"></span><a1>Thông tin giảng viên</a1></a>

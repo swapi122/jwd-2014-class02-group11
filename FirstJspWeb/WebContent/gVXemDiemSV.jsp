@@ -4,9 +4,6 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<head>
 <title>::. Điểm của sinh viên .::</title>
 <link rel="icon"
 	href="http://dkdt.fit.hcmute.edu.vn/public/images/it_spkt.png"
@@ -54,15 +51,15 @@
 		<li class="list-group-item"
 			style="text-align: right; font-weight: bold; font-family: verdana; background-color: #efefef;">Danh
 			Mục</li> <a href="index.jsp" class="list-group-item "><span
-			class="pull-right"><i class="icon-chevron-right"></i></span>Trang Chủ</a>
+			class="pull-right"> </span>Trang Chủ</a>
 		<a href="themDT.jsp" class="list-group-item "><span
-			class="pull-right"><i class="icon-chevron-right"></i></span>Thêm đề
+			class="pull-right"> </span>Thêm đề
 			tài</a> <a href="xemDTGV.jsp" class="list-group-item "><span
-			class="pull-right"><i class="icon-chevron-right"></i></span>Danh sách
+			class="pull-right"> </span>Danh sách
 			đề tài</a><a href="gVXemDiemSV.jsp" class="list-group-item "><span
-			class="pull-right"><i class="icon-chevron-right"></i></span>Xem điểm</a>
+			class="pull-right"> </span>Xem điểm</a>
 		<a href="" class="list-group-item "><span class="pull-right"><i
-				class="icon-chevron-right"></i></span>Vẽ Concept Map</a><a href=""
+				class="icon-chevron-right"></i></span>Vẽ Concept Map</a><a href="trangGV.jsp"
 			class="list-group-item "><span class="pull-right"><i
 				class="icon-chevron-right"></i></span>Thông tin giảng viên</a>
 		<hr />
@@ -105,17 +102,17 @@
 										<h4 id="mobile_home">Danh Mục</h4>
 									</div>
 									<a href="index.jsp" class="list-group-item "><span
-										class="pull-right"><i class="icon-chevron-right"></i></span>Trang
+										class="pull-right"></span>Trang
 										Chủ</a> <a href="themDT.jsp" class="list-group-item "><span
-										class="pull-right"><i class="icon-chevron-right"></i></span>Thêm
+										class="pull-right"></span>Thêm
 										đề tài</a> <a href="xemDTGV.jsp" class="list-group-item "><span
-										class="pull-right"><i class="icon-chevron-right"></i></span>Danh
+										class="pull-right"></span>Danh
 										sách đề tài</a><a href="gVXemDiemSV.jsp" class="list-group-item "><span
-										class="pull-right"><i class="icon-chevron-right"></i></span>Xem
-										điểm</a> <a href="" class="list-group-item "><span
-										class="pull-right"><i class="icon-chevron-right"></i></span>Vẽ
-										Concept Map</a><a href="" class="list-group-item "><span
-										class="pull-right"><i class="icon-chevron-right"></i></span>Thông
+										class="pull-right"></span><a1>Xem
+										điểm</a1></a> <a href="" class="list-group-item "><span
+										class="pull-right"></span>Vẽ
+										Concept Map</a><a href="trangGV.jsp" class="list-group-item "><span
+										class="pull-right"></span>Thông
 										tin giảng viên</a>
 								</div>
 								<!-- /panel-default -->

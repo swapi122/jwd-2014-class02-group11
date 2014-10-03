@@ -4,9 +4,6 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<head>
 <title>::. Chia sẻ concept map .::</title>
 <link rel="icon"
 	href="http://dkdt.fit.hcmute.edu.vn/public/images/it_spkt.png"
@@ -57,14 +54,14 @@
 		<li class="list-group-item"
 			style="text-align: right; font-weight: bold; font-family: verdana; background-color: #efefef;">Danh
 			M?c</li> <a href="index.jsp" class="list-group-item "><span
-			class="pull-right"><i class="icon-chevron-right"></i></span>Trang chủ</a>
+			class="pull-right"> </span>Trang chủ</a>
 		<a href="" class="list-group-item "><span class="pull-right"><i
-				class="icon-chevron-right"></i></span>T</a> <a href="" class="list-group-item "><span
-			class="pull-right"><i class="icon-chevron-right"></i></span>Danh sách
+				class="icon-chevron-right"></i></span>T</a> <a href="xemDSDTSV.jsp" class="list-group-item "><span
+			class="pull-right"> </span>Danh sách
 			đề tài</a><a href="danhSachDiem.jsp" class="list-group-item "><span
-			class="pull-right"><i class="icon-chevron-right"></i></span>Danh sách
-			điểm</a> <a href="danhSachChiaSe.jsp" class="list-group-item "><span
-			class="pull-right"><i class="icon-chevron-right"></i></span>Đề tài
+			class="pull-right"> </span>Danh sách
+			điểm</a> <a href="xemBaiDuocShare.jsp" class="list-group-item "><span
+			class="pull-right"> </span>Đề tài
 			được chia sẻ</a>
 		<hr />
 	</div>
@@ -106,8 +103,8 @@
 										<h4 id="mobile_home">Danh Mục</h4>
 									</div>
 									<a href="index.jsp" class="list-group-item "><span class="pull-right"></span>Trang Chủ</a> 
-									<a href="" class="list-group-item "><span class="pull-right"></span>Danh sách đề tài</a><a href="danhSachDiem.jsp" class="list-group-item "><span class="pull-right"></span>Danh sách điểm</a> 
-									<a href="danhSachChiaSe.jsp"
+									<a href="xemDSDTSV.jsp" class="list-group-item "><span class="pull-right"></span>Danh sách đề tài</a><a href="danhSachDiem.jsp" class="list-group-item "><span class="pull-right"></span>Danh sách điểm</a> 
+									<a href="xemBaiDuocShare.jsp"
 									class="list-group-item "><span class="pull-right"></span>Đề tài được chia sẻ</a>
 								</div>
 								<!-- /panel-default -->
@@ -149,7 +146,7 @@
 				<div class="col-md-9">
 					<ol class="breadcrumb">
 						<li><a href="index.jsp">Trang chủ</a></li>
-						<li class="active">Trang danh sách điểm theo đề tài</li>
+						<li class="active">Trang chia sẻ concept map </li>
 					</ol>
 				</div>
 				<div class="col-md-9">
