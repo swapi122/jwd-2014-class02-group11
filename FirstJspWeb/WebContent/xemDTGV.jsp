@@ -45,15 +45,17 @@
 		<li class="list-group-item"
 			style="text-align: right; font-weight: bold; font-family: verdana; background-color: #efefef;">Danh
 			Mục</li> <a href="index.jsp" class="list-group-item "><span
-			class="pull-right"></span>Trang Chủ</a> <a href=""
-			class="list-group-item "><span class="pull-right"></span> <a1>Thêm
-			đề tài</a1></a> <a href="" class="list-group-item "><span
-			class="pull-right"></span>Danh sách đề tài</a><a href=""
-			class="list-group-item "><span class="pull-right"></span>Xem điểm</a>
-		<a href="" class="list-group-item "><span class="pull-right"></span>Vẽ
-			Concept Map</a><a href="" class="list-group-item "><span
-			class="pull-right"></span>Thông tin giảng viên</a>
-
+			class="pull-right"><i class="icon-chevron-right"></i></span>Trang Chủ</a>
+		<a href="themDT.jsp" class="list-group-item "><span
+			class="pull-right"><i class="icon-chevron-right"></i></span>Thêm đề
+			tài</a> <a href="xemDTGV.jsp" class="list-group-item "><span
+			class="pull-right"><i class="icon-chevron-right"></i></span>Danh sách
+			đề tài</a><a href="gVXemDiemSV.jsp" class="list-group-item "><span
+			class="pull-right"><i class="icon-chevron-right"></i></span>Xem điểm</a>
+		<a href="" class="list-group-item "><span class="pull-right"><i
+				class="icon-chevron-right"></i></span>Vẽ Concept Map</a><a href=""
+			class="list-group-item "><span class="pull-right"><i
+				class="icon-chevron-right"></i></span>Thông tin giảng viên</a>
 
 
 		<hr />
@@ -128,14 +130,17 @@
 										<h4 id="mobile_home">Danh Mục</h4>
 									</div>
 									<a href="index.jsp" class="list-group-item "><span
-										class="pull-right"></span>Trang Chủ</a> <a href=""
-										class="list-group-item "><span class="pull-right"></span>
-										<a1>Thêm đề tài</a1></a> <a href="" class="list-group-item "><span
-										class="pull-right"></span>Danh sách đề tài</a> <a href=""
-										class="list-group-item "><span class="pull-right"></span>Xem
+										class="pull-right"><i class="icon-chevron-right"></i></span>Trang
+										Chủ</a> <a href="themDT.jsp" class="list-group-item "><span
+										class="pull-right"><i class="icon-chevron-right"></i></span>Thêm
+										đề tài</a> <a href="xemDTGV.jsp" class="list-group-item "><span
+										class="pull-right"><i class="icon-chevron-right"></i></span>Danh
+										sách đề tài</a><a href="gVXemDiemSV.jsp" class="list-group-item "><span
+										class="pull-right"><i class="icon-chevron-right"></i></span>Xem
 										điểm</a> <a href="" class="list-group-item "><span
-										class="pull-right"></span>Vẽ Concept Map</a> <a href=""
-										class="list-group-item "><span class="pull-right"></span>Thông
+										class="pull-right"><i class="icon-chevron-right"></i></span>Vẽ
+										Concept Map</a><a href="" class="list-group-item "><span
+										class="pull-right"><i class="icon-chevron-right"></i></span>Thông
 										tin giảng viên</a>
 								</div>
 								<!-- /panel-default -->
@@ -236,10 +241,10 @@
 									Mô tả:
 									<TEXTAREA NAME="so_thich_khac" COLS="40" ROWS="5">Mô tả và yêu cầu của đề tài hãy viết vào đây:</TEXTAREA>
 								</P>
-								<button class="btn" type="button" onclick="">Sửa</button>								
+								<button class="btn" type="button" onclick="">Sửa</button>
 								<button class="btn" type="button" onclick="">Lưu</button>
 								<button class="btn" type="button" onclick="">Hủy</button>
-								<button class="btn" type="button" onclick="">Xóa</button>								
+								<button class="btn" type="button" onclick="">Xóa</button>
 
 							</FORM>
 						</div>
