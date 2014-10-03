@@ -51,14 +51,12 @@
 		<li class="list-group-item"
 			style="text-align: right; font-weight: bold; font-family: verdana; background-color: #efefef;">Danh
 			Mục</li> <a href="index.jsp" class="list-group-item "><span
-			class="pull-right"> </span>Trang Chủ</a>
-		<a href="themDT.jsp" class="list-group-item "><span
-			class="pull-right"> </span>Thêm đề
+			class="pull-right"> </span>Trang Chủ</a> <a href="themDT.jsp"
+			class="list-group-item "><span class="pull-right"> </span>Thêm đề
 			tài</a> <a href="xemDTGV.jsp" class="list-group-item "><span
-			class="pull-right"> </span>Danh sách
-			đề tài</a><a href="gVXemDiemSV.jsp" class="list-group-item "><span
-			class="pull-right"> </span>Xem điểm</a>
-		<a href="" class="list-group-item "><span class="pull-right"><i
+			class="pull-right"> </span>Danh sách đề tài</a><a href="gVXemDiemSV.jsp"
+			class="list-group-item "><span class="pull-right"> </span>Xem
+			điểm</a> <a href="veConceptMapGV.jsp" class="list-group-item "><span class="pull-right"><i
 				class="icon-chevron-right"></i></span>Vẽ Concept Map</a><a href="trangGV.jsp"
 			class="list-group-item "><span class="pull-right"><i
 				class="icon-chevron-right"></i></span>Thông tin giảng viên</a>
@@ -102,17 +100,15 @@
 										<h4 id="mobile_home">Danh Mục</h4>
 									</div>
 									<a href="index.jsp" class="list-group-item "><span
-										class="pull-right"></span>Trang
-										Chủ</a> <a href="themDT.jsp" class="list-group-item "><span
-										class="pull-right"></span>Thêm
+										class="pull-right"></span>Trang Chủ</a> <a href="themDT.jsp"
+										class="list-group-item "><span class="pull-right"></span>Thêm
 										đề tài</a> <a href="xemDTGV.jsp" class="list-group-item "><span
-										class="pull-right"></span>Danh
-										sách đề tài</a><a href="gVXemDiemSV.jsp" class="list-group-item "><span
-										class="pull-right"></span><a1>Xem
-										điểm</a1></a> <a href="" class="list-group-item "><span
-										class="pull-right"></span>Vẽ
-										Concept Map</a><a href="trangGV.jsp" class="list-group-item "><span
-										class="pull-right"></span>Thông
+										class="pull-right"></span>Danh sách đề tài</a><a
+										href="gVXemDiemSV.jsp" class="list-group-item "><span
+										class="pull-right"></span>
+									<a1>Xem điểm</a1></a> <a href="veConceptMapGV.jsp" class="list-group-item "><span
+										class="pull-right"></span>Vẽ Concept Map</a><a href="trangGV.jsp"
+										class="list-group-item "><span class="pull-right"></span>Thông
 										tin giảng viên</a>
 								</div>
 								<!-- /panel-default -->

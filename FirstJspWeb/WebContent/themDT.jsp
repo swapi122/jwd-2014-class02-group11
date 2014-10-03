@@ -138,7 +138,7 @@
 										class="list-group-item "><span class="pull-right"></span>Danh sách đề tài</a>
 										<a href="gVXemDiemSV.jsp"
 										class="list-group-item "><span class="pull-right"></span>Xem điểm</a> 
-										<a href=""
+										<a href="veConceptMapGV.jsp"
 										class="list-group-item "><span class="pull-right"></span>Vẽ Concept Map</a>
 										<a href="trangGV.jsp"
 										class="list-group-item "><span class="pull-right"></span>Thông tin giảng viên</a>
