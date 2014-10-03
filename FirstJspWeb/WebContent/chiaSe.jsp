@@ -105,15 +105,10 @@
 									<div class="panel-heading">
 										<h4 id="mobile_home">Danh Mục</h4>
 									</div>
-									<a href="index.jsp" class="list-group-item "><span
-										class="pull-right"><i class="icon-chevron-right"></i></span>Trang
-										Chủ</a> <a href="" class="list-group-item "><span
-										class="pull-right"><i class="icon-chevron-right"></i></span>Danh
-										sách đề tài</a><a href="danhSachDiem.jsp" class="list-group-item "><span
-										class="pull-right"><i class="icon-chevron-right"></i></span>Danh
-										sách điểm</a> <a href="danhSachChiaSe.jsp"
-										class="list-group-item "><span class="pull-right"><i
-											class="icon-chevron-right"></i></span>Đề tài được chia sẻ</a>
+									<a href="index.jsp" class="list-group-item "><span class="pull-right"></span>Trang Chủ</a> 
+									<a href="" class="list-group-item "><span class="pull-right"></span>Danh sách đề tài</a><a href="danhSachDiem.jsp" class="list-group-item "><span class="pull-right"></span>Danh sách điểm</a> 
+									<a href="danhSachChiaSe.jsp"
+									class="list-group-item "><span class="pull-right"></span>Đề tài được chia sẻ</a>
 								</div>
 								<!-- /panel-default -->
 
@@ -121,9 +116,7 @@
 									<div class="panel-heading">
 										<h4 id="mobile_sinhvien">Hệ thống</h4>
 									</div>
-									<a href="index.jsp" class="list-group-item"><span
-										class="pull-right"><i class="icon-chevron-right"></i></span>Ðăng
-										xuất</a>
+									<a href="index.jsp" class="list-group-item"><span class="pull-right"></span>Ðăng xuất</a>
 								</div>
 								<!-- /panel-default -->
 
