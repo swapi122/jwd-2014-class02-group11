@@ -47,13 +47,13 @@
 			Mục</li> <a href=""
 			class="list-group-item "><span class="pull-right"><i
 				class="icon-chevron-right"></i></span>Trang Chủ</a> <a
-			href="themDT.jsp"
+			href=""
 			class="list-group-item "><span class="pull-right"><i
 				class="icon-chevron-right"></i></span>Thêm đề tài</a> <a
-			href="xemDTGV.jsp"
+			href=""
 			class="list-group-item "><span class="pull-right"><i
 				class="icon-chevron-right"></i></span>Danh sách đề tài</a><a
-			href="gVXemDiemSV.jsp"
+			href=""
 			class="list-group-item "><span class="pull-right"><i
 				class="icon-chevron-right"></i></span>Xem điểm</a> <a
 			href=""
@@ -141,9 +141,9 @@
 										class="list-group-item "><span class="pull-right"></span>Danh sách đề tài</a><a
 										href="gVXemDiemSV.jsp"
 										class="list-group-item "><span class="pull-right"></span>Xem điểm</a> <a
-										href=""
+										href="veConceptMapGV.jsp"
 										class="list-group-item "><span class="pull-right"></span>Vẽ Concept Map</a><a
-										href=""
+										href="trangGV.jsp"
 										class="list-group-item "><span class="pull-right"></span><a1>Thông tin giảng viên</a1></a>
 								</div>
 								<!-- /panel-default -->
