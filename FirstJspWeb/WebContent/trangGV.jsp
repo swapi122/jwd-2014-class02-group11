@@ -50,16 +50,16 @@
 			href="themDT.jsp"
 			class="list-group-item "><span class="pull-right"><i
 				class="icon-chevron-right"></i></span>Thêm đề tài</a> <a
-			href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
+			href="xemDTGV.jsp"
 			class="list-group-item "><span class="pull-right"><i
 				class="icon-chevron-right"></i></span>Danh sách đề tài</a><a
-			href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
+			href="gVXemDiemSV.jsp"
 			class="list-group-item "><span class="pull-right"><i
 				class="icon-chevron-right"></i></span>Xem điểm</a> <a
-			href="http://dkdt.fit.hcmute.edu.vn/danh-sach-loai-de-tai.html"
+			href=""
 			class="list-group-item "><span class="pull-right"><i
 				class="icon-chevron-right"></i></span>Vẽ Concept Map</a><a
-			href="http://dkdt.fit.hcmute.edu.vn/danh-sach-giang-vien/page/1.html"
+			href=""
 			class="list-group-item "><span class="pull-right"><i
 				class="icon-chevron-right"></i></span>Thông tin giảng viên</a>
 
