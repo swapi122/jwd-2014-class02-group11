@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>::. Quản trị tài khoản .::</title>
+<title>::. Chi tiết lỗi .::</title>
 <link rel="icon"
 	href="http://dkdt.fit.hcmute.edu.vn/public/images/it_spkt.png"
 	type="image/x-icon">
@@ -192,7 +192,7 @@ Chào mừng <span> Sinh Viên </span> <strong class="text-danger">Quách Tĩnh<
 	height: 80px !important;
 }
 </style>
-<h2> Điểm các đề tài</h2>
+<h2> Chi tiết các lỗi trong Concept map</h2>
 <div>
 <table width="800" border="1">
   <tbody>
