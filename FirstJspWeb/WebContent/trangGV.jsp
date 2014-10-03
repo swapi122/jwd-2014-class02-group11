@@ -3,7 +3,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>::. Quản trị tài khoản .::</title>
 <link rel="icon"
 	href="http://dkdt.fit.hcmute.edu.vn/public/images/it_spkt.png"
@@ -140,14 +140,14 @@
 										class="list-group-item "><span class="pull-right"></span>Trang Chủ</a> <a
 										href="themDT.jsp"
 										class="list-group-item "><span class="pull-right"></span>Thêm đề tài</a> <a
-										href=""
+										href="DSDTGV.jsp"
 										class="list-group-item "><span class="pull-right"></span>Danh sách đề tài</a><a
-										href=""
+										href="xemDiemGV.jsp"
 										class="list-group-item "><span class="pull-right"></span>Xem điểm</a> <a
-										href=""
+										href="conCeptMapGV.jsp"
 										class="list-group-item "><span class="pull-right"></span>Vẽ Concept Map</a><a
 										href=""
-										class="list-group-item "><span class="pull-right"></span>Thông tin giảng viên</a>
+										class="list-group-item "><span class="pull-right"></span><a1>Thông tin giảng viên</a1></a>
 								</div>
 								<!-- /panel-default -->
 

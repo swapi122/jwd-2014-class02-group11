@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=utf-8"
+ <%@ page language="java" contentType="text/html; charset=utf-8"
 	pageEncoding="utf-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>::. Quản trị tài khoản .::</title>
 <link rel="icon"
 	href="http://dkdt.fit.hcmute.edu.vn/public/images/it_spkt.png"
@@ -133,12 +133,12 @@
 									<a href="index.jsp"
 										class="list-group-item "><span class="pull-right"></span>Trang Chủ</a> 
 										<a href=""
-										class="list-group-item "><span class="pull-right"></span><a1>Thêm đề tài</a1></a> 
+										class="list-group-item "><span class="pull-right"></span>Thêm đề tài</a> 
 										<a href="DSDTGV.jsp"
-										class="list-group-item "><span class="pull-right"></span>Danh sách đề tài</a>
+										class="list-group-item "><span class="pull-right"></span><a1>Danh sách đề tài<a1></a>
 										<a href="xemDiemGV.jsp"
 										class="list-group-item "><span class="pull-right"></span>Xem điểm</a> 
-										<a href=""
+										<a href="conCeptMapGV.jsp"
 										class="list-group-item "><span class="pull-right"></span>Vẽ Concept Map</a>
 										<a href="trangGV.jsp"
 										class="list-group-item "><span class="pull-right"></span>Thông tin giảng viên</a>
@@ -213,19 +213,51 @@
 				<div class="col-md-9">
 					<ol class="breadcrumb">
 						<li><a href="index.jsp">Trang chủ</a></li>
-						<li class="active">Thêm đề tài</li>
+						<li class="active">Danh Sách Đề Tài</li>
 					</ol>
 
 					<div class="panel panel-default">
 						<div style="color: rgb(7, 132, 163);" class="panel-heading">
 							<h4 style="font-family: verdana; color: rgb(87, 87, 87);">Điền thông tin đề tài</h4>
 								<FORM>
-								<P>Mã đề tài:<INPUT TYPE="text" NAME="madt">                Tên đề tài:<INPUT TYPE="text" NAME="tendt"></P>
-								<P>Lớp: <select size="0"><option selected="selected" value="">Lập trình web 1</option> <option selected="selected" value="">Lập trình web 2</option> <option selected="selected" value="">Thiết kế phần mềm HDT</option> </select>                
-								Đáp án:<select size="0"><option selected="selected" value="">Concept Map 1</option> <option selected="selected" value="">Concept Map 2</option> <option selected="selected" value="">Concept Map 3</option> </select>
-								Hạn nộp bài:  <input type="date" name="bday"/></P>
-								<P>Mô tả:<TEXTAREA NAME="so_thich_khac" COLS="40" ROWS="5">Mô tả và yêu cầu của đề tài hãy viết vào đây:</TEXTAREA></P>
-								<P><INPUT TYPE="submit" VALUE="Thêm đề tài"> <INPUT TYPE="reset" VALUE="Làm lại"></P>
+								Mã đề tài:<INPUT TYPE="text" NAME="madt"><hr>Tên đề tài:<INPUT TYPE="text" NAME="tendt"></hr>
+								<hr>Tài liệu:<input type="text" name="tailieu"><input type="button" value="Brown"/></hr>
+								<hr>Đáp án:<select size="0"><option selected="selected" value="">Concept Map 2</option> <option selected="selected" value="">Concept Map 1</option> <option selected="selected" value="">List các concept đã được vẽ</option></hr></select>
+								<hr>Hạn nộp bài:  <input type="text" class= "date"/></hr>
+ <div>
+ <table width="800" border="1">
+  <tbody>
+    <tr bgcolor="#C9C7C7">
+      <td>MãĐT </td>
+      <td>TênĐT</td>
+      <td>Mô Tả</td>
+      <td>Thời Hạn</td>
+      <td>Tham Khảo</td>
+      <td>Đáp án</td>
+    </tr>
+    <tr>
+      <td>DT01</td>
+      <td>Mind Map</td>
+      <td>Sơ Đồ Tư Duy</td>
+      <td>15/08/2015</td>
+      <td><a href=""><a1>Word</a1></a></td>
+      <td><a href="conceptGV.jsp"><a1>Click</a1></a></td>
+    </tr>
+    <tr>
+      <td>DT02</td>
+      <td>Giám Sát Lớp</td>
+      <td>......</td>
+      <td>......</td>
+      <td><a href=""><a1>Word</a1></a></td>
+      <td><a href="conceptGV.jsp"><a1>Click</a1></a></td>
+    </tr>
+  </tbody>
+</table>
+ </div>                              							
+								<P><INPUT TYPE="submit" VALUE="Sửa">
+                                <INPUT TYPE="button" VALUE="Lưu">
+                                <INPUT TYPE="reset" VALUE="Hủy">
+                                <p>     <INPUT TYPE="button" VALUE="Xóa"></p></P>
 								
 								</FORM>
 						</div>
