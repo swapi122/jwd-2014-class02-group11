@@ -1,10 +1,10 @@
 #inspector-holder-create {
    position: absolute;
    top: 0;
-   left: 560px;
+   left: 1000px;
    bottom: 0;
    width: 240px;
-   height: 458px;
+   height: 501px;
    background-color: #333;
    color: #bcbcbc;
 }
