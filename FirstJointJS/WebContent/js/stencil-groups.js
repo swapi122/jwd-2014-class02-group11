@@ -523,8 +523,12 @@
 			height : 30
 		},
 		attrs : {
+			rect : {
+				fill : '#2ECC71'
+			},
 			text : {
-				text : 'rect'
+				text : 'rect',
+				fill : 'black'
 			}
 		}
 	});
@@ -538,8 +542,12 @@
 			height : 30
 		},
 		attrs : {
+			circle : {
+				fill : '#9B59B6'
+			},
 			text : {
-				text : 'circle'
+				text : 'circle',
+				fill : 'white'
 			}
 		}
 	});
@@ -584,15 +592,23 @@
 			width : 50,
 			height : 50
 		},
-		inPorts : [ '', '' ],
-		outPorts : [ '' ],
+		inPorts : [ 'in1', 'in2' ],
+		outPorts : [ 'out' ],
 		attrs : {
 			'.label' : {
-				text : 'model',
+				text : 'Model',
 				'ref-x' : .4,
 				'ref-y' : .2
 			},
-
+			rect : {
+				fill : '#2ECC71'
+			},
+			'.inPorts circle' : {
+				fill : '#16A085'
+			},
+			'.outPorts circle' : {
+				fill : '#E74C3C'
+			}
 		}
 	});
 
@@ -655,13 +671,14 @@
 			height : 70
 		},
 		attrs : {
+			rect: { fill: '#2C3E50', rx: 5, ry: 5, 'stroke-width': 2, stroke: 'black' },
 			a : {
 				'xlink:href' : 'http://www.google.com.vn',
 				cursor : 'pointer'
 			},
 			text : {
 				text : 'Element as a link:\nhttp://www.google.com',
-				fill : 'blue'
+				fill : 'white'
 			}
 		}
 	});
