@@ -48,12 +48,9 @@
 			<div id="paper-holder-groups" class="paper"></div>
 			<div id="inspector-holder-create">
 					<div class="inspector">
-						<div class="group" data-name="mydata">
-							<h3 class="group-label">My Data</h3>
-							<div class="field" data-field="myproperty">
-								<label>myproperty:</label> <input type="number" class="number"
-									data-type="number" data-attribute="myproperty" min="" max=""
-									step="" value="5">
+						<div class="group" data-name="labels">
+							<h3 class="group-label">Labels</h3>
+							
 							</div>
 						</div>
 						<div class="group" data-name="text">
@@ -92,7 +89,7 @@
 		<link rel="stylesheet" href="./css/style1.css">
 		<link rel="stylesheet" href="./css/stencil-groups.css" />
 		<link rel="stylesheet" href="./css/inspector-create.css">
-			<script src="./js/inspector-create.js"></script>
+			
 
 		<script src="./js/stencil-groups.js"></script>
 
