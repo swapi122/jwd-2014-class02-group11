@@ -19,11 +19,9 @@
 		<link rel="stylesheet" href="./css/joint.all.min.css">
 		<script src="./js/joint.all.min.js"></script>
 
-		<div class="content-container">
+		<div>
 			<div class="docs-demo">
-				<div id="paper-holder-create" class="paper">
-					
-				</div>
+				
 				<div id="inspector-holder-create">
 					<div class="inspector">
 						<div class="group" data-name="mydata">
@@ -69,7 +67,7 @@
 			</div>
 			<link rel="stylesheet" href="./css/inspector-create.css">
 			<script src="./js/inspector-create.js"></script>
-</div>
+		</div>
 	</section>
 
 </body>
