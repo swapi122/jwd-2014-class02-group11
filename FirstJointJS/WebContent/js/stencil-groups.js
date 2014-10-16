@@ -9,12 +9,70 @@
 	    }, joint.shapes.basic.Rect.prototype.defaults)
 	});
 	
+	//auto layout
+	 var LightLinkView = joint.dia.LinkView.extend({
+
+	        node: V('<line stroke="gray" fill="none" />'),
+
+	        initialize: function() {
+	            
+	            joint.dia.CellView.prototype.initialize.apply(this, arguments);
+	            
+	            V(this.el).attr({ 'class': 'link', 'model-id': this.model.id });
+	            
+	            // this.throttledUpdate = _.bind(_.throttle(this.update, 10), this);
+	        },
+	        
+	        render: function() {
+
+	            var node = this.node.clone();
+
+	            this._sourceModel = this.paper.getModelById(this.model.get('source').id);
+	            this._targetModel = this.paper.getModelById(this.model.get('target').id);
+	                
+	            this._lineNode = V(node.node);
+
+	            var attrs = this.model.get('attrs');
+	            if (attrs && attrs.line)
+	                this._lineNode.attr(attrs.line);
+	            
+	            this._sourceModel.on('change:position', this.update);
+	            this._targetModel.on('change:position', this.update);
+	            
+	                this.update();
+
+	            V(this.el).append(node);
+	            },
+
+	        update: function() {
+
+	            var sourceSize = this._sourceModel.get('size') || { width: 0, height: 0 };
+	            var targetSize = this._targetModel.get('size') || { width: 0, height: 0 };
+	            
+	            var sourcePosition = this._sourceModel.get('position');
+	            var targetPosition = this._targetModel.get('position');
+
+	            if (sourcePosition && targetPosition) {
+
+	                sourcePosition = g.point(sourcePosition).offset(sourceSize.width/2, sourceSize.height/2);
+	                targetPosition = g.point(targetPosition).offset(targetSize.width/2, targetSize.height/2);
+
+	                this._lineNode.node.setAttribute('x1', sourcePosition.x);
+	                this._lineNode.node.setAttribute('y1', sourcePosition.y);
+	                this._lineNode.node.setAttribute('x2', targetPosition.x);
+	                this._lineNode.node.setAttribute('y2', targetPosition.y);
+	            }
+	        }
+	    });
+	 
+	 
+	
 	
     var graph = new joint.dia.Graph;
+    var $app = $('#paper-holder-groups');
     var paper = new joint.dia.Paper({
-        el: $('#paper-holder-groups'),
         width: 800,
-        height: 500,
+        height: 800,
         gridSize: 1,
         model: graph,
         defaultLink: new joint.dia.Link({
@@ -23,6 +81,61 @@
         snapLinks: { radius: 75 },
         markAvailable: true
     });
+    //scroller
+    var paperScroller = new joint.ui.PaperScroller({
+        autoResizePaper: true,
+        padding: 50,
+        paper: paper
+    });
+
+    // Initiate panning when the user grabs the blank area of the paper.
+    paper.on('blank:pointerdown', paperScroller.startPanning);
+
+    paperScroller.$el.css({
+        width: 800,
+        height: 500
+    });
+
+    $app.append(paperScroller.render().el);
+
+    // Example of centering the paper.
+    paperScroller.center();
+ // Toolbar buttons.
+
+    $('#btn-center').on('click', _.bind(paperScroller.center, paperScroller));
+    $('#btn-center-content').on('click', _.bind(paperScroller.centerContent, paperScroller));
+
+    $('#btn-zoomin').on('click', function() {
+        paperScroller.zoom(0.2, { max: 2 });
+    });
+    $('#btn-zoomout').on('click', function() {
+        paperScroller.zoom(-0.2, { min: 0.2 });
+    });
+    $('#btn-zoomtofit').on('click', function() {
+        paperScroller.zoomToFit({
+            minScale: 0.2,
+            maxScale: 2
+        });
+    });
+    
+    var graphLayout = new joint.layout.ForceDirected({
+        graph: graph,
+        width: 380, height: 280,
+        gravityCenter: { x: 190, y: 145 },
+        charge: 180,
+        linkDistance: 30
+    });
+    graphLayout.start();
+    
+    function animate() {
+        joint.util.nextFrame(animate);
+        graphLayout.step();
+    }
+
+    $('#btn-layout').on('click', animate);
+    
+    //scroll paper
+    
     //tuy chinh shape
     paper.on('cell:pointerup', function(cellView) {
         // We don't want a Halo for links.
@@ -55,15 +168,6 @@
     //can chinh vi tri so voi shape khac
     var snaplines = new joint.ui.Snaplines({ paper: paper });
     snaplines.startListening();
-    
-    //chong de shape
-    paper.on('cell:pointerup', function(cellView) {
-        // We don't want a Halo for links.
-        if (cellView.model instanceof joint.dia.Link) return;
-
-        var halo = new joint.ui.Halo({ graph: graph, paper: paper, cellView: cellView });
-        halo.render();
-    });
 
     var stencil = new joint.ui.Stencil({ 
         graph: graph, 
@@ -74,6 +178,13 @@
             simple: { label: 'Select Shapes', index: 1 }
         }
     });
+    //them btn
+    var commandManager = new joint.dia.CommandManager({ graph: graph });
+
+    $('#btn-undo').on('click', _.bind(commandManager.undo, commandManager));
+    $('#btn-redo').on('click', _.bind(commandManager.redo, commandManager));
+    $('#btn-reset').on('click', _.bind(commandManager.reset, commandManager));
+    
     $('#stencil-holder-groups').append(stencil.render().el);
 
     var r = new joint.shapes.basic.Rect({ 

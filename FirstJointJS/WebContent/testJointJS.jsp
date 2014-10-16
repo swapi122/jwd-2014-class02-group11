@@ -16,11 +16,22 @@
 	<!-- toàn bộ khung vẽ ở đây -->
 	<section id="rappid-docs">
 	<link rel="stylesheet" href="./css/joint.all.min.css">
+	
 	<script src="./js/joint.all.min.js"></script>
 	<script src="./js/snaplines-style.js"></script>
-	
+	<script src="./js/commandManager-create.js"></script>
 
 	<div>
+	<div id ="btn-gr">
+	<button class="btn" id="btn-reset">reset</button>
+	<button class="btn" id="btn-undo">undo</button>
+    <button class="btn" id="btn-redo">redo</button>
+	<button class="btn" id="btn-layout">layout</button>
+    <button class="btn" id="btn-center-content">center content</button>
+    <button class="btn" id="btn-zoomout">zoom out</button>
+    <button class="btn" id="btn-zoomin">zoom in</button>
+    <button class="btn" id="btn-zoomtofit">zoom to fit</button>
+    </div>
 		<div class="docs-demo">
 			<div id="stencil-holder-groups">
 				<div class="stencil">
@@ -35,7 +46,10 @@
 		</div>
 		<link rel="stylesheet" href="./css/style1.css">
 		<link rel="stylesheet" href="./css/stencil-groups.css" />
+		
+		
 		<script src="./js/stencil-groups.js"></script>
+		
 
 	</div>
 	</section>
