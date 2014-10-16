@@ -10,8 +10,9 @@
 }
 #stencil-holder-groups .stencil .group-label {
    padding: 0;
+   margin-left: 10px;
 }
 #stencil-holder-groups .stencil .group .elements {
-   margin-left: -10px;
+   margin-left: 10px;
    background: transparent;
 }
