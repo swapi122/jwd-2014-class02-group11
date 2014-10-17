@@ -1,3 +1,41 @@
+#paper-holder-groups {
+   left: 200px;    
+   height: 500px;
+   position: relative;
+}
+#stencil-holder-groups .stencil {
+   width: 200px;
+   height: 500px;
+   position: absolute;
+}
+#stencil-holder-groups .stencil .group-label {
+   padding: 0;
+   margin-left: 0px;
+}
+#btn-gr{
+	margin-left: 200px;
+}
+#stencil-holder-groups .stencil .group .elements {
+   margin-left: -10px;
+   background: transparent;
+}
+
+
+#inspector-holder-create {
+   position: absolute;
+   top: 0;
+   left: 1000px;
+   bottom: 0;
+   width: 240px;
+   height: 501px;
+   background-color: #333;
+   color: #bcbcbc;
+}
+
+#inspector-holder-create .group-label {
+   padding: 0 5px;
+}
+
 @font-face {
    font-family: "Continuum Light Regular";
    src: url("/fonts/Continuum-Light-Regular.ttf") format("truetype");
